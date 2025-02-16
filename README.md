@@ -112,6 +112,5 @@ A robust and secure RESTful API for managing job postings, applications, and use
 - **Account Locking**: Accounts are locked for `ACCOUNT_LOCK_DURATION_MINUTES` minutes after `LOGIN_ATTEMPT_THRESHOLD` failed login attempts.
 - **Password Hashing**: Passwords are hashed with `bcrypt` before storage.
 - **Rate Limiting**: Restrict requests to RATE_LIMIT_MAX_REQUESTS per IP within 15 minutes.
-- **Rate Limiting**: Restrict requests to RATE_LIMIT_MAX_REQUESTS per IP within 15 minutes.
 - **CSP**: Configured via Helmet to restrict resources to trusted domains.
 - **Security Logging**: Track critical security events (logins, registrations, lockouts).
